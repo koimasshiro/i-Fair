@@ -1,0 +1,35 @@
+.hero-section{
+    background-image: url('../images/purple-bokeh-digital-business-background.jpg ');
+    object-fit: cover;
+    height: 100%;
+    padding-bottom: 15rem;
+    color: white;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8rem 0 0 8rem;
+}
+
+.btn{
+    padding: 8px 15px 8px 15px;
+    border: none;
+    border-radius: 20px;
+    background: #f06926;
+    color: white;
+  }
+  .title{
+    font-weight: 800;
+  }
+.wave-svg{
+    position: absolute;
+}
+.wave-svg2{
+    position: absolute;
+    bottom: 20px; 
+    z-index: 0;
+} 
+.wave-container{
+    position: relative;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
+
 import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter} from 'react-icons/fa';
 
 
@@ -20,10 +21,10 @@ function Navbar() {
         </div>
         <div className='social-icons-btn'>
           <div style={{marginRight: "50px"}}>
-            <span className='icons'><a href='https://www.facebook.com/ifairisraelnigeria/'><FaFacebook style={{color: 'white', padding: '80px'}}/></a></span>
-            <span><a href='https://www.instagram.com/ifairisraelnigeria/'><FaInstagram style={{color: 'white', padding: '80px'}}/></a></span>
-            <span><a href='https://twitter.com/iFAIRIsraelNig'><FaTwitter style={{color: 'white', padding: '80px'}}/></a></span>
-            <span><a href='https://www.linkedin.com/company/75117021/admin/'><FaLinkedin style={{color: 'white', padding: '80px'}}/></a></span>
+            <span className='icons'><a href='https://www.facebook.com/ifairisraelnigeria/'><FaFacebook style={{color: 'white', paddingRight: '15px'}}/></a></span>
+            <span><a href='https://www.instagram.com/ifairisraelnigeria/'><FaInstagram style={{color: 'white', paddingRight: '15px'}}/></a></span>
+            <span><a href='https://twitter.com/iFAIRIsraelNig'><FaTwitter style={{color: 'white', paddingRight: '15px'}}/></a></span>
+            <span><a href='https://www.linkedin.com/company/75117021/admin/'><FaLinkedin style={{color: 'white', paddingRight: '15px'}}/></a></span>
           </div>
           <button className='btn'>Apply For i-FAIR 3</button>
         </div>

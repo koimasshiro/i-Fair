@@ -3,10 +3,9 @@ import React from 'react';
 function About() {
   return (
     <div>
-      <img src='/wave.svg' className='wave-svg' alt='wave-svg' />
-      <img src='/wave.svg' className='wave2-svg' alt='wave-svg' />
+      
       <div>
-        <h2>What is<span style={{ color: "#ff5100" }}>i-FAIR</span>?</h2>
+        <h2>What is <span style={{ color: "#ff5100" }}>i-FAIR</span>?</h2>
         <p>Welcome to the Innovation Fellowship for Aspiring Inventors and Researchers (i-FAIR). i-FAIR is an initiative of the Embassy of the
           State of Israel in Nigeria in collaboration with the Office of the Vice President of the Federal Republic of Nigeria.
         </p>
