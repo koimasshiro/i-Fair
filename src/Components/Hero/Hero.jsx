@@ -23,7 +23,7 @@ function Hero() {
         </div>
         <div className='wave-container'>
           <img src='/wave.svg' className='wave-svg' alt='wave-svg' />
-          {/* <img src='/wave.svg' className='wave2-svg' alt='wave-svg' /> */}
+          <img src='/wave.svg' className='wave2-svg' alt='wave-svg' />
         </div>
     </div>
     </div>

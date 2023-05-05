@@ -1,4 +1,4 @@
-export default TestimonialsData = [
+export const TestimonialsData = [
     {
         id: 1,
         fullName: "Goodness Tamuno",
