@@ -6,6 +6,7 @@ const Benefits = () => {
     <div>
         <h2>Benefits</h2>
         
+        
     </div>
   )
 }

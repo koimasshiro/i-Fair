@@ -5,6 +5,9 @@
     padding: 2rem 8rem 0 5rem;
     background: transparent;
 }
+.logo{
+  width: 50px;
+}
 .logo-list{
     display: flex;
     flex-direction: row;

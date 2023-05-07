@@ -1,11 +1,13 @@
 import React from 'react';
+import './About.css';
+import { FaArrowAltCircleRight } from 'react-icons/fa';
+import Slider from './Slider/Slider';
 
 function About() {
   return (
-    <div>
-      
-      <div>
-        <h2>What is <span style={{ color: "#ff5100" }}>i-FAIR</span>?</h2>
+    <div className='about-section'>
+      <div className='about'>
+        <h1>About <span style={{ color: "#ff5100"}}>i-FAIR</span>?</h1>
         <p>Welcome to the Innovation Fellowship for Aspiring Inventors and Researchers (i-FAIR). i-FAIR is an initiative of the Embassy of the
           State of Israel in Nigeria in collaboration with the Office of the Vice President of the Federal Republic of Nigeria.
         </p>
@@ -13,7 +15,8 @@ function About() {
           With the mandate to empower INNOVATORS, INVENTORS, ENTREPRENEURS, and VENTURE CREATORS in Nigeria, i-FAIR was born out of the need to tackle local challenges with innovative made-in-Nigeria solutions; for the overall goal of inspiring Nigeria to become a
           start-up nation.
         </p>
-        <p>Through the 6-month program, i-FAIR provides participants with the necessary resources and support to transform their ideas into
+        <button>Read more <FaArrowAltCircleRight/></button>
+        {/* <p>Through the 6-month program, i-FAIR provides participants with the necessary resources and support to transform their ideas into
           innovations and sustainable ventures that can create jobs and generate wealth for Nigerians and Nigeria.
         </p>
         <p>We have successfully implemented 2 editions of i-FAIR, with a total of 63 FELLOWS and 56 PROTOTYPES DEVELOPED. This was achieved in
@@ -29,10 +32,16 @@ function About() {
           VENTURE CREATION.
         </p>
         <p>At i-FAIR, we are committed to supporting innovation and empowering aspiring inventors and venture creators in Nigeria, to transform their
-          ideas into.
-        </p>
+          ideas into innovations.
+        </p> */}
+        {/* <img src={aboutImage} alt='i-fair events' className='about-img img1'/> */}
+        {/* <img src={aboutImage2} alt='i-fair events' className='about-img img2'/> */}
+        {/* <img src={aboutImage3} alt='i-fair events' className='about-img img3'/> */}
       </div>
+      <Slider/>
     </div>
   )
 }
+
+ 
 export default About

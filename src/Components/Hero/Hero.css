@@ -1,8 +1,9 @@
 .hero-section{
-    background-image: url('../images/purple-bokeh-digital-business-background.jpg ');
+    background-image: url('../../images/purple-bokeh-digital-business-background.jpg');
     object-fit: cover;
+    width: 100%;
     height: 100%;
-    padding-bottom: 15rem;
+    padding-bottom: 17rem;
     color: white;
 }
 .hero{
@@ -24,12 +25,17 @@
   }
 .wave-svg{
     position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 1;
 }
-.wave-svg2{
+.wave2-svg{
     position: absolute;
-    bottom: 20px; 
+    top: 35px;
+    left: 0;
     z-index: 0;
 } 
 .wave-container{
     position: relative;
+    top: -50px;
 }

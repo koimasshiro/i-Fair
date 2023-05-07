@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
+import {NavLink} from 'react-router-dom'
 
 import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter} from 'react-icons/fa';
 
@@ -8,10 +9,10 @@ function Navbar() {
   return (
     <div className='navbar'>
         <div className='logo-list'>
-            <img src="./images/Asset 1@4x.png" alt='i-fair logo'/>
+            <img src="./images/Asset 1@4x.png" alt='i-fair logo' className='logo'/>
             <ul className='nav-list'>
-              <li>Home</li>
-              <li>Innovations</li>
+              <li><NavLink to="/Home">Home</NavLink></li>
+              <li><NavLink to="/Innovations">Innovations</NavLink></li>
               <li>i-FAIR Fellows</li>
               <li>Gallery</li>
               <li>Events</li>
