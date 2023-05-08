@@ -1,23 +1,29 @@
 import React from 'react';
 import "./Navbar.css";
-import {NavLink} from 'react-router-dom'
-
+import {Link} from 'react-router-dom'
 import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter} from 'react-icons/fa';
+import { HiXCircle } from 'react-icons/hi';
 
 
 function Navbar() {
+
+  window.addEventListener("scroll", function(){
+    const header = document.querySelector("nav");
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
   return (
-    <div className='navbar'>
+    <header className='navbar'>
         <div className='logo-list'>
             <img src="./images/Asset 1@4x.png" alt='i-fair logo' className='logo'/>
             <ul className='nav-list'>
-              <li><NavLink to="/Home">Home</NavLink></li>
-              <li><NavLink to="/Innovations">Innovations</NavLink></li>
-              <li>i-FAIR Fellows</li>
-              <li>Gallery</li>
-              <li>Events</li>
-              <li>News</li>
-              <li>Contact</li>
+              <HiXCircle className='nav-close-btn'/>
+              <li><Link to="/Home" style={{color: 'white', textDecoration: 'none'}}>Home</Link></li>
+              <li><Link to="/Innovations" style={{color: 'white', textDecoration: 'none'}}>Innovations</Link></li>
+              <li><Link to='/Fellows' style={{color: 'white', textDecoration: 'none'}}>i-FAIR Fellows</Link></li>
+              <li><Link to='/Gallery' style={{color: 'white', textDecoration: 'none'}}>Gallery</Link></li>
+              <li><Link to='/Events' style={{color: 'white', textDecoration: 'none'}}>Events</Link></li>
+              <li><Link to='/News' style={{color: 'white', textDecoration: 'none'}}>News</Link></li>
+              <li><Link to='/Contact' style={{color: 'white', textDecoration: 'none'}}>Contact</Link></li>
             </ul>
         </div>
         <div className='social-icons-btn'>
@@ -29,7 +35,7 @@ function Navbar() {
           </div>
           <button className='btn'>Apply For i-FAIR 3</button>
         </div>
-    </div>
+    </header>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import {Link} from 'react-router-dom'
 import Navbar from "../Navbar/Navbar";
 
 function Hero() {
@@ -10,7 +11,7 @@ function Hero() {
         <Navbar />
         <div className="hero">
           <div>
-            <h3>Welcome</h3>
+            <h3 style={{color: '#ff5100'}}>Welcome</h3>
             <h1 className="title">
               Innovation Fellowship for Aspiring <br />
               Inventors and Researchers (i-FAIR)
@@ -23,15 +24,12 @@ function Hero() {
             {/*Add Blob*/}
             <img src="" alt="i-fair fellows" />
           </div>
-          
         </div>
         <div className='wave-container'>
         <img src='/wave.svg' className='wave-svg' alt='wave-svg' />
-          <img src='/wave2.svg' className='wave2-svg' alt='wave-svg' />
-        </div>
-
+        <img src='/wave2.svg' className='wave2-svg' alt='wave-svg' />
+      </div> 
       </div>
-      
     </div>
   );
 }

@@ -5,6 +5,7 @@ import Slider from './Slider/Slider';
 
 function About() {
   return (
+    <div>
     <div className='about-section'>
       <div className='about'>
         <h1>About <span style={{ color: "#ff5100"}}>i-FAIR</span>?</h1>
@@ -15,7 +16,7 @@ function About() {
           With the mandate to empower INNOVATORS, INVENTORS, ENTREPRENEURS, and VENTURE CREATORS in Nigeria, i-FAIR was born out of the need to tackle local challenges with innovative made-in-Nigeria solutions; for the overall goal of inspiring Nigeria to become a
           start-up nation.
         </p>
-        <button>Read more <FaArrowAltCircleRight/></button>
+        <button className='btn about-btn'>Read more <FaArrowAltCircleRight style={{paddingTop: '5px'}}/></button>
         {/* <p>Through the 6-month program, i-FAIR provides participants with the necessary resources and support to transform their ideas into
           innovations and sustainable ventures that can create jobs and generate wealth for Nigerians and Nigeria.
         </p>
@@ -34,11 +35,9 @@ function About() {
         <p>At i-FAIR, we are committed to supporting innovation and empowering aspiring inventors and venture creators in Nigeria, to transform their
           ideas into innovations.
         </p> */}
-        {/* <img src={aboutImage} alt='i-fair events' className='about-img img1'/> */}
-        {/* <img src={aboutImage2} alt='i-fair events' className='about-img img2'/> */}
-        {/* <img src={aboutImage3} alt='i-fair events' className='about-img img3'/> */}
       </div>
       <Slider/>
+    </div>
     </div>
   )
 }

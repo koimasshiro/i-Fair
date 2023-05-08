@@ -4,9 +4,24 @@
     align-items: center;
     padding: 2rem 8rem 0 5rem;
     background: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+    transition: .6s ease;
+    margin: 0;
+}
+header .sticky .navbar{
+  height: calc(2.5rem + 1rem);
+}
+
+header .navbar{
+  transition: .3s linear;
 }
 .logo{
   width: 50px;
+  padding-right: 20px;
 }
 .logo-list{
     display: flex;
@@ -21,6 +36,9 @@
     justify-content: center;
     align-items: center;
   }
+  .nav-close-btn{
+    display: none;
+  }
   .nav-list li{
     padding-left: 15px;
   }
@@ -31,5 +49,7 @@
 }
 .social-icons-btn > span{
   padding-right: 10px;
-  font-weight: 500;
+  font-weight: 500;                           
 }
+
+

@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #00103e;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0 40px 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.footer-logo{
+    width: 100px;
+}
+.footer-list{
+    list-style: none;
+}
+.footer-list li:hover{
+    color: #ff5100;
+}
+.footer-contact p{
+    color: white;
+}
+.copyright{
+    padding: 20px;
+    background-color: #0e052c;
+    color: white;
+}
+.copyright p{
+    text-align: center;
+}

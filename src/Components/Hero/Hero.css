@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 8rem 0 0 8rem;
+    padding: 15rem 0 0 8rem;
 }
 
 .btn{
@@ -23,19 +23,19 @@
   .title{
     font-weight: 800;
   }
-.wave-svg{
+  .wave-container{
+    position: relative;
+    top: -50px;
+  }
+  .wave-svg{
     position: absolute;
     top: 45px;
     left: 0;
     z-index: 1;
-}
-.wave2-svg{
+  }
+  .wave2-svg{
     position: absolute;
-    top: 35px;
+    top: 25px;
     left: 0;
     z-index: 0;
-} 
-.wave-container{
-    position: relative;
-    top: -50px;
-}
+  } 

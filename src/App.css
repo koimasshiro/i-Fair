@@ -1,9 +1,18 @@
+:root{
+    --scroll-bar-color: #c5cadf;
+    --scroll-hover-color: #454f6b;
+    --scroll-thumb-color: #70768a;
+}
+html{
+  scroll-behavior: smooth;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 .btn{
     padding: 8px 15px 8px 15px;
     border: none;
@@ -11,3 +20,14 @@
     background: #f06926;
     color: white;
   }
+  ::-webkit-scrollbar{
+    width: 12px;
+    background: var(--scroll-bar-color);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--scroll-thumb-color);
+    border-radius: 1.5em;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var(--scroll-hover-color);
+}

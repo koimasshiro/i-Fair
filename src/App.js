@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './Components/Home/Home';
+import AnimatedRoutes from './Components/AnimatedRoutes/AnimatedRoutes';
 import {BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Home/>
+        <AnimatedRoutes/>
       </Router>      
     </div>
   );

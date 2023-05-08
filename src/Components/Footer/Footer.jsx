@@ -1,37 +1,44 @@
 import React from 'react';
-import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaEnvelope, FaPhone} from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { HiPhone } from 'react-icons/hi';
+import footerLogo from '../../images/i-Fair Logo white.png';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
-        <div>
-            <img src='' alt='i-fair logo'/>
+    <>
+    <div className='footer'>
+      <div>
+        <img src={footerLogo} alt='i-fair logo' className='footer-logo' />
+      </div>
+      <ul className='footer-list'>
+        <li><Link to='/Home' style={{ textDecoration: 'none', color: 'white' }}>Home</Link></li>
+        <li><Link to='/News' style={{ textDecoration: 'none', color: 'white' }}>News</Link></li>
+        <li><Link to='/Innovations' style={{ textDecoration: 'none', color: 'white' }}>Innovations</Link></li>
+        <li><Link to='/Gallery' style={{ textDecoration: 'none', color: 'white' }}>Gallery</Link></li>
+      </ul>
+      <ul>
+        <li><Link to='/Fellows' style={{ textDecoration: 'none', color: 'white' }}>i-FAIR Fellows</Link></li>
+        <li><Link to='/Events' style={{ textDecoration: 'none', color: 'white' }}>Events</Link></li>
+        <li><Link to='/Contact' style={{ textDecoration: 'none', color: 'white' }}>Contact</Link></li>
+      </ul>
+      <div className='footer-contact'>
+        <h3 style={{ color: '#ff5100' }}>Contact Us</h3>
+        <p><FaEnvelope style={{ color: 'white', marginRight: '10px' }} /> <a href='mailto: info@ifair-israelnigeria.com'>info@ifair-israelnigeria.com</a></p>
+        <p><HiPhone style={{ color: 'white', marginRight: '10px' }} /> +234 906 5200 034</p>
+        <div style={{paddingTop: '20px'}}>
+          <span><FaFacebook style={{ color: 'white', marginRight: '10px', fontSize: '1.2em' }} /></span>
+          <span><FaInstagram style={{ color: 'white', marginRight: '10px', fontSize: '1.2em' }} /></span>
+          <span><FaLinkedin style={{ color: 'white', marginRight: '10px', fontSize: '1.2em' }} /></span>
+          <span><FaTwitter style={{ color: 'white', marginRight: '10px', fontSize: '1.2em' }} /></span>
         </div>
-        <ul>
-            <li>Home</li>
-            <li>News</li>
-            <li>Innovations</li>
-            <li>Gallery</li>
-            <li>i-FAIR Fellows</li>
-            <li>Event</li>
-            <li>Contact</li>
-        </ul>
-        <div>
-            <h3>Contact Us</h3>
-            <p><FaEnvelope/>Email: <a href='mailto: info@ifair-israelnigeria.com'>info@ifair-israelnigeria.com</a></p>
-            <p><FaPhone/>Phone: +234 906 5200 034</p>
-            <div>
-              <span><FaFacebook/></span>
-              <span><FaInstagram/></span>
-              <span><FaLinkedin/></span>
-              <span><FaTwitter/></span>
-            </div>
-        </div>
-        <div>
-          <p>&copy; copyright i-FAIR 2023 - Innovation Fellowship for Aspiring Inventors and Researchers</p>
-        </div>
+      </div>
     </div>
+    <div className='copyright'>
+      <p>&copy; copyright <span>i-FAIR</span> 2023 - Innovation Fellowship for Aspiring Inventors and Researchers</p>
+    </div>
+    </>
   )
 }
 export default Footer

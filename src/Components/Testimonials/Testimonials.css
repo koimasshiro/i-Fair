@@ -1,0 +1,66 @@
+.svg {
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    margin: 0;
+    padding: 20px 0 50px 0;
+    background-color: whitesmoke;
+}
+
+.container h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #000b5c;
+}
+
+.testimonials {
+    margin: 0rem 10rem 0rem 10rem;
+    padding: 50px 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.testimonials:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: ease 1s;
+}
+.testimonial-section {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.testimonials-img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.testimonial {
+    padding-top: 25px;
+}
+
+.arrow {
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: #777;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    bottom: -55rem;
+    position: absolute;
+}
+
+.arrow:hover {
+    background-color: white;
+    color: #777;
+}
+
+.prev {
+    left: 20.5rem;
+}
+
+.next {
+    right: 20.5rem;
+}
