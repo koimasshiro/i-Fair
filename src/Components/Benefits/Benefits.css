@@ -3,7 +3,7 @@
   height: auto;
   min-height: 400px;
   background: #e6e7ec;
-  margin: 3.5rem auto 1.5rem;
+  margin: 0 auto 1.5rem;
   padding: 2rem 1rem;
   color: black;
   border-radius: 2rem;
@@ -14,7 +14,7 @@ ul.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #39A2DB;
+    border: 1px solid #f06926;
     border-radius: 2rem;
     padding-left: 0px;
     @media (max-width: 768px) {
@@ -28,23 +28,33 @@ ul.nav {
     text-align: center;
     cursor: pointer;
     transition: all 0.7s;
-    border-bottom-left-radius: 2rem;
-    border-top-left-radius: 2rem;
+    /* border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem; */
   }
-  ul.nav li:nth-child(2) {
+  /* ul.nav li:nth-child(2) {
     border-radius: 0;
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
-  }
+  } */
   ul.nav li:hover {
-    background: rgba(50, 224, 196, 0.15);
+    background: rgba(221, 133, 51, 0.15);
   }
   ul.nav li.active {
-    background: #39A2DB;
+    background: #f06926;
+    color: white;
   }
-
+  ul.nav li:first-child {
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
+  ul.nav li:last-child {
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
 @media (max-width: 769px) {
   .Tabs {
     padding: 2rem 0;
   }
 }
+
+
