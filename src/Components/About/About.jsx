@@ -38,6 +38,7 @@ function About() {
       </div>
       <Slider/>
     </div>
+    <img src='/wavebottom.svg' alt=''/>
     </div>
   )
 }

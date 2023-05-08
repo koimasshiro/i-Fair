@@ -1,7 +1,6 @@
 import React from "react";
 import "./Hero.css";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import {Link} from 'react-router-dom'
 import Navbar from "../Navbar/Navbar";
 
 function Hero() {

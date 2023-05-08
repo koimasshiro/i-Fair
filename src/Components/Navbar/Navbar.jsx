@@ -6,11 +6,7 @@ import { HiXCircle } from 'react-icons/hi';
 
 
 function Navbar() {
-
-  window.addEventListener("scroll", function(){
-    const header = document.querySelector("nav");
-    header.classList.toggle("sticky", window.scrollY > 0);
-});
+  
   return (
     <header className='navbar'>
         <div className='logo-list'>
