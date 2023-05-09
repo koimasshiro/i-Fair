@@ -4,6 +4,7 @@
     background-color: #00103e;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
     padding: 50px 0 40px 0;
     border-radius: 20px 20px 0 0;
 }
@@ -20,10 +21,18 @@
 .footer-contact p{
     color: white;
 }
+.footer-contact a{
+    text-decoration: none;
+    color: white;
+}
+.footer-contact a:hover{
+    color: #ff5100;
+}
 .copyright{
     padding: 20px;
     background-color: #0e052c;
     color: white;
+    width: 100%;
 }
 .copyright p{
     text-align: center;

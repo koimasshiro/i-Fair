@@ -1,0 +1,9 @@
+.innovations-header{
+    background-image: url('../../../images/purple-bokeh-digital-business-background.jpg');
+    margin: 0;
+}
+.innovations-header h2{
+    color: white;
+    margin: 10rem;
+    padding-bottom: 70px;
+}

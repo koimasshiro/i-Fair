@@ -37,9 +37,9 @@ ul.nav {
     border-top-right-radius: 2rem;
   } */
 
-  /* Tab styles 2*/
- 
-  /* h1 { font-size: 32px; }
+/* Tab styles 2*/
+
+/* h1 { font-size: 32px; }
 h2 { font-size: 26px; }
 h3 { font-size: 18px; }
 p { margin: 0 0 15px; line-height: 24px; color: gainsboro; }
@@ -149,7 +149,7 @@ body {
 } */
 
 h2 {
-  color: #000;
+  color: #000b5c;
   text-align: center;
   font-size: 2em;
   margin: 20px 0;
@@ -220,6 +220,6 @@ h2 {
   color: #000;
   border-top: 3px solid #f06926;
 }
-.benefits-list{
+.benefits-list {
   padding: 30px;
 }

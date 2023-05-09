@@ -1,0 +1,31 @@
+.contact{
+    background-image: url('../../../images/purple-bokeh-digital-business-background.jpg');
+    height: 100vh;
+}
+.contact-wrapper{
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: 40%;
+    margin: 10rem auto;
+    position: relative;
+    z-index: 1;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.contact-info h1{
+    font-weight: 700;
+
+}
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+.contact-info a:hover{
+    color: #f06926;
+}

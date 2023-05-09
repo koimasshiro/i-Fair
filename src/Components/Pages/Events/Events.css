@@ -1,0 +1,17 @@
+.event-container{
+    /* background-image: url('../../../images/purple-bokeh-digital-business-background.jpg'); */
+    margin: 0;
+}
+.event-img{
+    position: fixed;
+    filter: brightness(30%);
+    z-index: 0;
+}
+.event{
+    position: relative;
+    text-align: center;
+    padding-top: 150px;
+    height: 100vh;
+    color: white;
+    z-index: 1;
+}

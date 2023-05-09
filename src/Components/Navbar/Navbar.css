@@ -4,21 +4,25 @@
     align-items: center;
     padding: 2rem 8rem 0 5rem;
     background: transparent;
-    position: fixed;
     width: 100%;
-    top: 0;
     left: 0;
     backdrop-filter: blur(20px);
     transition: .6s ease;
     margin: 0;
 }
-header .sticky .navbar{
+.active{
+  position: fixed;
+  top: 0;
+  background: #000b5c;
+  padding-bottom: 20px;
+  z-index: 99999;
+}
+/* header .sticky .navbar{
   height: calc(2.5rem + 1rem);
 }
-
 header .navbar{
   transition: .3s linear;
-}
+} */
 .logo{
   width: 50px;
   padding-right: 20px;
@@ -47,9 +51,14 @@ header .navbar{
   flex-direction: row;
   justify-content: space-between;
 }
-.social-icons-btn > span{
+/* .social-icons-btn > span{
   padding-right: 10px;
   font-weight: 500;                           
+} */
+
+.social-icons-btn a:hover{
+  color: #ff5100;
 }
-
-
+.stories{
+  margin-left: 10px;
+}
